@@ -1,0 +1,41 @@
+/* Center the SUform div */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 92vh;
+}
+
+.form {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid black; 
+    border-radius: 8px;
+}
+
+.SUform .d-flex {
+    width: 100%;
+}
+
+.ip {
+    flex: 1;
+    margin-right: 0.5rem;
+}
+
+.ip:last-child {
+    margin-right: 0;
+}
+
+.SUbtn {
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 13px;
+}
